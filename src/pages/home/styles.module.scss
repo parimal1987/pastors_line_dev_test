@@ -1,0 +1,13 @@
+.contactList {
+    min-height: 200px;
+
+    .scrollableDiv {
+        height: 200px;
+        overflow-y: scroll;
+    }
+}
+
+.contactModal {
+    max-height: 400px;
+    overflow-y: scroll;
+}

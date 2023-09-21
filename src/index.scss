@@ -1,0 +1,58 @@
+@import 'bootstrap/scss/bootstrap';
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+.btn-all {
+    background-color: #46139f;
+    border-color: #46139f;
+    transition: all 0.5s ease-in-out;
+
+    &:active,
+    &:focus,
+    &:hover {
+        border-color: transparent !important;
+        background-color: #46139f !important;
+        opacity: 0.9;
+    }
+}
+
+.btn-us {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+    transition: all 0.5s ease-in-out;
+
+    &:active,
+    &:focus,
+    &:hover {
+        border-color: transparent !important;
+        background-color: #ff7f50 !important;
+        opacity: 0.9;
+    }
+}
+
+.btn-modal-close {
+    border-color: #46139f;
+    background-color: #fff;
+    color: #46139f;
+
+    &:active,
+    &:focus,
+    &:hover {
+        color: #46139f !important;
+        border-color: #46139f !important;
+        background-color: #fff !important;
+        opacity: 0.9;
+    }
+}
